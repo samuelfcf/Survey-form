@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(45deg, #92ffc0, #002661);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+  min-height: 100vh;
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3vh;
+}
+
+.header #title{
+  font-weight: 500;
+}
+
+.header p{
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.2);
+  margin-bottom: 5vh;
+}
+
+.container form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5vh 5vh;
+}
+
+.container form .field{
+  padding-bottom: 2vh;
+}
+
+.container form .camps{
+  outline: none;
+  background-color: white;
+  width: 100%;
+  height: 4vh;
+  border-radius: 3px;
+  padding: 2.5vh 3vh;
+}
+
+
+.container form .name {
+  padding-bottom: 5px;
+}
+
+.container form .field select{
+  color: black;
+  width: 100%;
+  border-radius: 3px;
+  height: 5vh;
+  padding-left: 2vh;
+}
+
+.container form textarea{
+  padding-top: 1vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.container form button{
+  font-weight: 500;
+  color: white;
+  font-size: 3vh;
+  background-color: #bd278b;
+  padding: 2vh;
+  border-radius: 3px;
+  cursor: pointer; 
+  transition: all 0.3s ease;
+}
+
+.container form button:hover {
+  letter-spacing: 1px;
+}
